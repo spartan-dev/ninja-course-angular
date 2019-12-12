@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  //decorator object with options
+  selector: "app-root", //selector for the html browser
+  templateUrl: "./app.component.html", //selector for the template view
+  styleUrls: ["./app.component.css"] //selector for the style template use override for the bootstrap classes
 })
 export class AppComponent {
-  title = 'ninja-course';
+  //logic for component
+  title = "ninja-course";
 }
